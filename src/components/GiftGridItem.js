@@ -1,8 +1,7 @@
 
 import React from 'react'
 
-export const GiftGridItem = ( {id, url,title} ) => {
-    console.log(id );
+export const GiftGridItem = ( {url,title} ) => {
     return (
         <div className="card animate__animated animate__fadeInDown">
            <img src={url} alt={title}/>
@@ -10,3 +9,4 @@ export const GiftGridItem = ( {id, url,title} ) => {
         </div>
     )
 }
+
