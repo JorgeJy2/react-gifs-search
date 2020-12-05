@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test GiftGridI should view items when load data. 1`] = `
+<Fragment>
+  <p
+    className="category"
+  >
+    dogs
+  </p>
+  <div
+    className="card-grid"
+  >
+    <GiftGridItem
+      id="abc12"
+      key="abc12"
+      title="test"
+      url="https://localhost/img"
+    />
+    <GiftGridItem
+      id="abc12"
+      key="abc12"
+      title="test"
+      url="https://localhost/img"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`test GiftGridI test snapshot 1`] = `
+<Fragment>
+  <p
+    className="category"
+  >
+    dogs
+  </p>
+  <p
+    id="message-loading"
+  >
+    Loading....
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;

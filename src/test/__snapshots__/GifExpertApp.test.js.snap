@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifExpertApp should view list categories  1`] = `
+<Fragment>
+  <h1
+    id="title"
+  >
+    Gifs search
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GiftGrid
+      category="cats"
+      key="cats0"
+    />
+    <GiftGrid
+      category="programing"
+      key="programing1"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`GifExpertApp wraper 1`] = `
+<Fragment>
+  <h1
+    id="title"
+  >
+    Gifs search
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol />
+</Fragment>
+`;
